@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "learnmod:block/mythril_ore"
+    }
+  }
+}

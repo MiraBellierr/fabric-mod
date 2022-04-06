@@ -8,6 +8,7 @@ import net.minecraft.util.registry.Registry;
 import xyz.kannakawaii.learnmod.LearnMod;
 
 public class ModItems {
+
     public static final Item MYTHRIL_INGOT = registerItem("mythril_ingot",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
