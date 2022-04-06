@@ -2,6 +2,7 @@
   "item.learnmod.mythril_ingot": "Mythril Ingot",
   "item.learnmod.mythril_nugget": "Mythril Nugget",
   "item.learnmod.raw_mythril": "Raw Mythril",
+  "item.learnmod.dowsing_rod": "Dowsing Rod",
 
   "block.learnmod.mythril_block": "Mythril Block",
   "block.learnmod.mythril_ore": "Mythril Ore",
@@ -9,5 +10,7 @@
   "block.learnmod.netherrack_mythril_ore": "Netherrack Mythril Ore",
   "block.learnmod.raw_mythril_block": "Block of Raw Mythril",
 
-  "itemGroup.learnmod.mythril": "Mythril Learn Tab"
+  "itemGroup.learnmod.mythril": "Mythril Learn Tab",
+
+  "item.learnmod.dowsing_rod.no_valuables": "No valuables found"
 }
