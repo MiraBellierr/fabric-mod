@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "mythril_ingot",
+  "ingredient": {
+    "item": "learnmod:deepslate_mythril_ore"
+  },
+  "result": "learnmod:mythril_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+}
