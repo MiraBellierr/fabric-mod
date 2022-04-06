@@ -19,7 +19,7 @@ public class ModBlocks {
     private static final Block DEEPSLATE_MYTHRIL_ORE = registerBlock("deepslate_mythril_ore", new Block(FabricBlockSettings.of(Material.STONE).strength(5f).requiresTool()), ModItemGroups.MYTHRIL);
     private static final Block NETHERRACK_MYTHRIL_ORE = registerBlock("netherrack_mythril_ore", new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroups.MYTHRIL);
     private static final Block RAW_MYTHRIL_BLOCK = registerBlock("raw_mythril_block", new Block(FabricBlockSettings.of(Material.METAL).strength(4.5f).requiresTool()), ModItemGroups.MYTHRIL);
-    private static final Block SPEEDY_BLOCK = registerBlock("speedy_block", new SpeedyBlock(FabricBlockSettings.of(Material.METAL).strength(4.5f).requiresTool()), ModItemGroups.MYTHRIL);
+    private static final Block SPEEDY_BLOCK = registerBlock("speedy_block", new SpeedyBlock(FabricBlockSettings.of(Material.METAL).strength(4.5f).requiresTool()), ItemGroup.MISC);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
