@@ -5,6 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import xyz.kannakawaii.learnmod.block.ModBlocks;
 import xyz.kannakawaii.learnmod.item.ModItems;
+import xyz.kannakawaii.learnmod.util.ModRegistries;
 
 public class LearnMod implements ModInitializer {
 
@@ -16,5 +17,6 @@ public class LearnMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModRegistries.registerMods();
 	}
 }
